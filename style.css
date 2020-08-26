@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+head {
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  background-color: #aaa;
+  background-size: cover;
+  width: 100%;
+  top: 65px;
+  position: relative;
+  padding: 80px 40px;
+  box-sizing: border-box;
+  text-align: left;
+  color: white;
+  background-image: url(https://tarot-cartomancie-divinatoire.lafabrique2sites.net/images/tarot.jpg);
+}
+.btn {
+  align: left;
+  background-color: gold;
+}
+.logo img {
+  width: 100px;
+}
+ul {
+  position: fixed;
+  text-align: left;
+  background-color: darkorange;
+  width: 100%;
+  top: -18;
+  padding: 25px;
+  z-index: 10;
+}
+li {
+  display: inline-block;
+  font-weight: bold;
+  color: black;
+}
+.content {
+  padding: 30px 100px 0 100px;
+}
+.inner-div {
+  display: inline-block;
+  width: 30%;
+  margin-right: 4%;
+  position: relative;
+  top: 50px;
+  height: 400px;
+}
+.last-div {
+  margin: 0;
+}
+.content .inner-div img {
+  width: 200px;
+  height: 300px;
+}
